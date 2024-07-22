@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/%7Bluke-howlett-cv%7D/static/js/main.b54f38b0.chunk.js",
+    "main.js.map": "/%7Bluke-howlett-cv%7D/static/js/main.b54f38b0.chunk.js.map",
+    "runtime-main.js": "/%7Bluke-howlett-cv%7D/static/js/runtime-main.9dae9fac.js",
+    "runtime-main.js.map": "/%7Bluke-howlett-cv%7D/static/js/runtime-main.9dae9fac.js.map",
+    "index.html": "/%7Bluke-howlett-cv%7D/index.html",
+    "static/js/main.b54f38b0.chunk.js.LICENSE.txt": "/%7Bluke-howlett-cv%7D/static/js/main.b54f38b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dae9fac.js",
+    "static/js/main.b54f38b0.chunk.js"
+  ]
+}
