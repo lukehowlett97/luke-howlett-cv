@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/%7Bluke-howlett-cv%7D/static/js/main.b54f38b0.chunk.js",
-    "main.js.map": "/%7Bluke-howlett-cv%7D/static/js/main.b54f38b0.chunk.js.map",
-    "runtime-main.js": "/%7Bluke-howlett-cv%7D/static/js/runtime-main.9dae9fac.js",
-    "runtime-main.js.map": "/%7Bluke-howlett-cv%7D/static/js/runtime-main.9dae9fac.js.map",
-    "index.html": "/%7Bluke-howlett-cv%7D/index.html",
-    "static/js/main.b54f38b0.chunk.js.LICENSE.txt": "/%7Bluke-howlett-cv%7D/static/js/main.b54f38b0.chunk.js.LICENSE.txt"
+    "main.js": "/luke-howlett-cv/static/js/main.b54f38b0.chunk.js",
+    "main.js.map": "/luke-howlett-cv/static/js/main.b54f38b0.chunk.js.map",
+    "runtime-main.js": "/luke-howlett-cv/static/js/runtime-main.9e979abb.js",
+    "runtime-main.js.map": "/luke-howlett-cv/static/js/runtime-main.9e979abb.js.map",
+    "index.html": "/luke-howlett-cv/index.html",
+    "static/js/main.b54f38b0.chunk.js.LICENSE.txt": "/luke-howlett-cv/static/js/main.b54f38b0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dae9fac.js",
+    "static/js/runtime-main.9e979abb.js",
     "static/js/main.b54f38b0.chunk.js"
   ]
 }
