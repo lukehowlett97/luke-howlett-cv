@@ -17,7 +17,7 @@ const CV = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">Professional Summary</h2>
         <p className="text-gray-700">
-          As a Data Analyst with expertise in GNSS and mathematical modeling, I excel at converting complex data into actionable insights. Proficient in Python, I leverage powerful libraries to analyze, visualize, and interpret large datasets. I am driven by a problem-solving mindset and strong analytical skills to support data-driven decision-making and strategy development.
+        Data Analyst specializing in GNSS and mathematical modeling, I excel at converting complex data into actionable insights. Highly skilled in Python, I leverage its' powerful libraries to analyse, visualise, and interpret large datasets. I am driven by a problem-solving mindset and strong analytical skills to support data-driven decision-making and strategy development.
         </p>
       </section>
 
@@ -27,7 +27,7 @@ const CV = () => {
           <h3 className="text-xl font-semibold text-gray-700">GNC Nav</h3>
           <p className="text-gray-600 italic">2020 - Present</p>
           <ul className="list-disc list-inside text-gray-700 mt-2">
-            <li>Lead Member of a small R&D Team: Responsible for a variety of tasks, demonstrating flexibility and efficiency in achieving objectives.</li>
+            <li>Lead Member of a small R&D Team: Took charge of a multitude of diverse tasks within a small R&D team, demonstrating exceptional flexibility and resourcefulness to achieve and surpass objectives.</li>
             <li>Data Engineering and System Deployment: Designed, built, automated and deployed sophisticated data pipelines and systems, significantly improving efficiency and optimizing processes.</li>
             <li>Comprehensive Data and Scientific Analysis: Utilized statistical analysis and machine learning techniques to model and interpret GNSS data. Proficient in applying linear algebra and coordinate transformations to understand satellite dynamics.</li>
           </ul>

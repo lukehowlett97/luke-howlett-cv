@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import CV from './CV'; // Assuming CV is in the same directory, adjust the import path if it's in another directory
+import CV from './CV'; // Adjust the import path if needed
+import './index.css';
 
 const App = () => {
   return (
@@ -14,4 +15,6 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App />);
