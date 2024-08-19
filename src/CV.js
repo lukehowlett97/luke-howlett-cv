@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaLink } from 'react-icons/fa';
 import Modal from './components/Modal';
 
 const CV = () => {
@@ -92,25 +93,26 @@ const CV = () => {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-2">Current Job</h2>
-          <div className="mb-4">
-            <div className="flex justify-between items-center">
-              <div className="flex items-center space-x-4">
-                <h3 className="text-xl font-semibold text-gray-700">CHC Tech LTD</h3>
-                <a href="https://ichcgnss.co.uk/" className="text-xl font-semibold text-blue-700 hover:underline">Link</a>
-              </div>
-              <p className="text-gray-600 italic">2020 - Present</p>
-            </div>
-            <ul className="list-disc list-inside text-gray-700 mt-2">
-              <li><strong>Lead Member of a small R&D Team:</strong> Took charge of a multitude of diverse tasks within a small R&D team, demonstrating exceptional flexibility and resourcefulness to achieve and surpass objectives.</li>
-              <li><strong>Data Engineering and System Deployment:</strong> Designed, built, automated and deployed sophisticated data pipelines and systems, significantly improving efficiency and optimizing processes.</li>
-              <li><strong>Comprehensive Data and Scientific Analysis:</strong> Utilized statistical analysis and machine learning techniques to model and interpret GNSS data. Proficient in applying linear algebra and coordinate transformations to understand satellite dynamics.</li>
-              <li><strong>Research Implementation and Innovation:</strong> Translated cutting-edge techniques from research papers into functional code, bridging the gap between theoretical research and practical application to drive innovation.</li>
-              <li><strong>A Great Team Member:</strong> Collaborated with prestigious organizations such as NASA, IGS, and Imperial College, contributing to significant projects and research initiatives. Participated in European business trips, networked at industry conventions, and engaged in critical collaborative meetings with key companies in the field.</li>
-            </ul>
+      <h2 className="text-2xl font-semibold text-gray-800 mb-2">Current Job</h2>
+      <div className="mb-4">
+        <div className="flex justify-between items-center">
+          <div className="flex items-center space-x-4">
+            <h3 className="text-xl font-semibold text-gray-700">CHC Tech LTD</h3>
+            <a href="https://ichcgnss.co.uk/" className="text-blue-700 hover:underline">
+              <FaLink size={20} />
+            </a>
           </div>
+          <p className="text-gray-600 italic">2020 - Present</p>
+        </div>
+        <ul className="list-disc list-inside text-gray-700 mt-2">
+          <li><strong>Lead Member of a small R&D Team:</strong> Took charge of a multitude of diverse tasks within a small R&D team, demonstrating exceptional flexibility and resourcefulness to achieve and surpass objectives.</li>
+          <li><strong>Data Engineering and System Deployment:</strong> Designed, built, automated and deployed sophisticated data pipelines and systems, significantly improving efficiency and optimizing processes.</li>
+          <li><strong>Comprehensive Data and Scientific Analysis:</strong> Utilized statistical analysis and machine learning techniques to model and interpret GNSS data. Proficient in applying linear algebra and coordinate transformations to understand satellite dynamics.</li>
+          <li><strong>Research Implementation and Innovation:</strong> Translated cutting-edge techniques from research papers into functional code, bridging the gap between theoretical research and practical application to drive innovation.</li>
+          <li><strong>A Great Team Member:</strong> Collaborated with prestigious organizations such as NASA, IGS, and Imperial College, contributing to significant projects and research initiatives. Participated in European business trips, networked at industry conventions, and engaged in critical collaborative meetings with key companies in the field.</li>
+        </ul>
+      </div>
     </section>
-
 
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Technical Skills</h2>
@@ -144,7 +146,7 @@ const CV = () => {
       <section>
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <a href="https://example.com/satellite-tracker" target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
+          <a href="https://sqc-dash-fd9i8yzp28y2pcvw4m7tj3.streamlit.app/" target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Real-Time Satellite Tracker</h3>
             <p className="text-gray-700 mb-2">GIS tool to visualise live satellite positions and ground reference stations.</p>
             <div className="flex flex-wrap gap-2">
@@ -153,20 +155,21 @@ const CV = () => {
               <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Streamlit</span>
             </div>
           </a>
-          <a href="https://example.com/sv-elevation-calculator" target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">SV Elevation Calculator</h3>
-            <p className="text-gray-700 mb-2">Open source tool I optimised to calculate satellite elevation and azimuth.</p>
+          <a href="https://github.com/LukeCHC/altazrange" target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">SV Azi Ele Calc - Vectorised </h3>
+            <p className="text-gray-700 mb-2">Open source tool I optimised to calculate satellite elevation and azimuth in parallel.</p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Work Project</span>
               <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Numpy</span>
             </div>
           </a>
-          <a href="https://example.com/group-chat-dashboard" target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
+          <a href="https://workinprogress.com/" target="_blank" rel="noopener noreferrer" className="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition-shadow duration-300">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Group Chat Dashboard</h3>
-            <p className="text-gray-700 mb-2">Webapp showcasing visualisations and insights into my friend's groupchat, deployed on docker.</p>
+            <p className="text-gray-700 mb-2">Webapp showcasing visualisations and insights into my friends' groupchat, deployed on docker and GCP.</p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Personal Project</span>
               <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Python</span>
+              <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
             </div>
           </a>
         </div>
