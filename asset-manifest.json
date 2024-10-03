@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/luke-howlett-cv/static/css/main.abe1660f.css",
-    "main.js": "/luke-howlett-cv/static/js/main.a28ffc78.js",
+    "main.css": "/luke-howlett-cv/static/css/main.61e3fbde.css",
+    "main.js": "/luke-howlett-cv/static/js/main.a9458aa1.js",
     "index.html": "/luke-howlett-cv/index.html",
-    "main.abe1660f.css.map": "/luke-howlett-cv/static/css/main.abe1660f.css.map",
-    "main.a28ffc78.js.map": "/luke-howlett-cv/static/js/main.a28ffc78.js.map"
+    "main.61e3fbde.css.map": "/luke-howlett-cv/static/css/main.61e3fbde.css.map",
+    "main.a9458aa1.js.map": "/luke-howlett-cv/static/js/main.a9458aa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.abe1660f.css",
-    "static/js/main.a28ffc78.js"
+    "static/css/main.61e3fbde.css",
+    "static/js/main.a9458aa1.js"
   ]
 }
